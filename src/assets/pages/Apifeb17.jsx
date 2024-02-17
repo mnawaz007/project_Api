@@ -91,13 +91,13 @@ const Apifeb17 = () => {
                  <Card style={{ width: '18rem' }} >
                  <Card.Img variant="top" src={user.image} className="w-50 img-fluid d-block mx-auto m-2" />
                  <Card.Body>
-                        <h3>id : {user.id}</h3>
+                        <h4>id : {user.id}</h4>
                    <Card.Title>{user.title}</Card.Title>
                    <Card.Text>
                     
                    </Card.Text>
-                   <h3>Category : {user.category}</h3>
-                   <h3>Price : {user.price}</h3>
+                   <h5>Category : {user.category}</h5>
+                   <h2>Price : {user.price}</h2>
                  </Card.Body>
                </Card>
                 </div>
