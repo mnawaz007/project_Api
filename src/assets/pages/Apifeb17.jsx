@@ -96,7 +96,7 @@ const Apifeb17 = () => {
                    <Card.Text>
                     
                    </Card.Text>
-                   <h5>Category : {user.category}</h5>
+                   <h5> {user.category}</h5>
                    <h2>Price : {user.price}</h2>
                  </Card.Body>
                </Card>
